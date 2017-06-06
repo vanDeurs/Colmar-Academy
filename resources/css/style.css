@@ -1,0 +1,162 @@
+/*----------------
+Author: Alexander Wilson van Deurs [CharlesvanDeurs]
+Date: 06/06/2017
+Email: alexwvd@outlook.com
+------------------*/
+
+/* GLOBAL*/
+
+/*h1,h2,h3,h4,h5,h6,p {
+    text-shadow: -1.5px 0 #000, 0 1.5px #000, 1.5px 0 #000, 0 -1.5px #000;*/
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+    background: #fff;
+}
+
+nav #nav-left {
+    font-size: 1.5rem;
+    color: #ccc;
+    text-transform: uppercase;
+    margin-left: 24px;
+}
+
+nav #nav-right {
+    margin-right: 24px;
+    font-size: 1.2rem;
+    color: #ccc;
+}
+
+nav ul strong {
+    font-weight: bold;
+    color: #000;
+}
+
+nav ul {
+    display: inline-flex;
+}
+
+nav #nav-right a {
+    text-decoration: none;
+    margin-right: 15px;
+    display: inline;
+    color: #333;
+}
+
+
+/* HEADER PAGE */
+
+.header-page {
+    background: grey;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+@media only screen and (max-width: 991px) {
+    .header-page {
+        flex-direction: column;
+    }
+    
+    .image-container {
+        width: 100%;
+        margin: 10px 0 10px 0;
+    }
+    
+    .start-here {
+        padding-left: 0;
+    }
+}
+
+.image-container {
+    margin: 32px 40px 32px 24px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.start-here {
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start-here h2 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgba(0,0,0,0.7);
+    margin-bottom: 10px;
+}
+
+.start-here h4 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgba(0,0,0,0.7);
+}
+
+.start-here button {
+    padding: 10px 30px;
+    background: lightgreen;
+    margin: 0 auto;
+}
+
+
+/* INFORMATION PAGE */
+
+.information-page {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+#left {
+    width: 60%;
+}
+
+#left img {
+    width: 100%;
+    height: auto;
+    margin: 32px 40px 32px 24px;
+}
+
+#left h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    color: rgba(0,0,0,0.7);
+    margin-bottom: 24px;
+    margin-left: 24px;
+    line-height: 1.2;
+}
+
+#left p {
+    font-weight: 500;
+    font-size: 1.3rem;
+    color: #333;
+    line-height: 1.5;
+    margin-left: 24px;
+    border: 1px solid red;
+}
+
+
+
+
+

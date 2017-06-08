@@ -6,8 +6,7 @@ Email: alexwvd@outlook.com
 
 /* GLOBAL*/
 
-/*h1,h2,h3,h4,h5,h6,p {
-    text-shadow: -1.5px 0 #000, 0 1.5px #000, 1.5px 0 #000, 0 -1.5px #000;*/
+h1,h2,h3,h4,h5,h6,p {
     margin: 0;
     padding: 0;
 }
@@ -160,28 +159,127 @@ nav #nav-right a {
     width: 100%;
 }
 
+#left span {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    margin-top: 40px;
+    margin-left: 24px;
+        
+}
 
 #right {
-    width: 35%;
+    width: 32%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    border-left: 1px solid grey;
+    padding-left: 3%;
 }
 
 #right .side-info {
     display: flex;
     flex-direction: row;
     align-items: center;
-    border: 1px solid red;
-    margin-top: 24px;
-    width: 100%;
+    margin-top: 32px;
+    width: 99%;
 }
 
-.right img {
-    width: 100%;
+#right img {
+    width: 45%;
     height: auto;
 }
+
+#right .side-info-text {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 50%;
+}
+
+.side-info-text h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.side-info-text h5 {
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.side-info-text a {
+    font-size: 1.1rem;
+}
+
+
+/* COURSES PAGE */
+
+.courses-page {
+    width: 100%;
+    background: #fff;
+    text-align: center;
+}
+
+.courses-page h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    padding: 32px 0;
+}
+
+.courses {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.course {
+    margin-right: 32px;
+    display: flex;
+    flex-direction: column;
+}
+
+.course img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.courses-text-info {
+    margin: 16px 0 32px 0;
+    display: block;
+    padding-left: 24px;
+    text-align: left;
+}
+
+.courses-text-info h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.courses-text-info h5 {
+    font-size: 1.2rem;
+    font-weight: 300;
+    padding: 8px 0;
+    text-transform: uppercase;
+}
+
+.courses-text-info h6 {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
 
 
 

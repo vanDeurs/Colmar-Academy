@@ -561,13 +561,12 @@ nav #nav-right a:hover {
 footer {
     display: flex;
     height: 50px;
-    background: #5B6070;
+    background: #F05F40;
     color: #fff;
     flex-direction: row;
     justify-content: space-between;
     clear: both;
     align-items: center;
-    border-top: 1px solid #F05F40;
     width: 100%;
 }
 

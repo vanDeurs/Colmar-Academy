@@ -114,6 +114,14 @@ nav #nav-right a:hover {
         padding-left: 0;
         text-align: center;
     }
+        
+    div.image-container {
+        margin: 0;
+    }
+    div.image-container img {
+        border: none;
+        margin-bottom: 25px;
+    }
     
     
 }
@@ -198,28 +206,42 @@ nav #nav-right a:hover {
         width: 100%;
     }
     
-    #left {
-        width: 90%;
+    div#left {
+        width: 100%;
         margin: 0 auto;
     }
-    
-    #right {
-        width: 80%;
+    div#left img{
         margin: 0 auto;
+        width: 100%;
+        border: none;
+        border-top: 1px solid #fff;
+    }
+    
+    div#right {
+        width: 100%;
+        margin: 0 auto; 
     }
     #right .side-info {
         display: flex;
         flex-direction: row;
-        align-items: center;
         margin-top: 32px;
-        width: 100%;
+        width: 95%;
+        height: 120px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    #right .side-info-text {
+        margin: 0 auto;
+    }
+    
+    #right img {
+        display: none;
+        position: absolute;
     }
     
     .header-page button {
         margin-bottom: 45px;
     }
-    
-    
 }
 #left {
     display: flex;
@@ -229,10 +251,11 @@ nav #nav-right a:hover {
 }
 
 #left img {
-    width: 100%;
+    width: 97%;
     height: auto;
     margin: 32px 40px 32px 24px;
     border: 1px solid #F05F40;
+    margin-right: 3%;
 }
 
 #left h1 {
@@ -290,6 +313,7 @@ nav #nav-right a:hover {
 #right img {
     width: 45%;
     height: auto;
+    
 }
 
 #right .side-info-text {
@@ -460,10 +484,6 @@ nav #nav-right a:hover {
         align-items: none;
     }
     
-    #left {
-        width: 100%;
-    }
-    
     #left h1{
         font-size: 2rem;
         line-height: 1.2;
@@ -474,10 +494,11 @@ nav #nav-right a:hover {
     #left p {
         line-height: 1.1;
         font-size: 1.2rem;
+        width: 80%;
     }
     
     #left img {
-        margin: 0;
+        width:80%; 
     }
 }
 
